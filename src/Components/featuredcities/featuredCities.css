@@ -1,0 +1,38 @@
+.FeaturedCity{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    z-index: 1;
+    margin-bottom: -10px;
+    
+}
+
+.featuredItem{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.featuredImg{
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.featuredTitles{
+position:absolute;
+bottom: 5px;
+left :200px;
+color: white;
+line-height: 15px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 19px;
+}

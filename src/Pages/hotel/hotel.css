@@ -1,0 +1,205 @@
+.hotelContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotelsWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.hotelAddress{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.TitlewBtn{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Btn{
+    
+    height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.detailsBox{
+    margin-top: -15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hmapIcon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Icon{
+    font-size: 12px;
+}
+
+.address{
+    font-size: 14px;
+}
+
+.location{
+    font-size: 15px;
+    font-weight: 550;
+    word-spacing: 3px;
+    color: #0071c2;
+}
+
+.disc{
+    color: #008009;
+    font-weight: 500;
+    word-spacing: 3px;
+}
+
+
+.hotelsImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.ImageWrapper{
+width: 33%;
+display: flex;
+
+    
+}
+
+.Image{
+    object-fit: cover;
+    width: 100%;
+    
+}
+
+.PgrpgDescDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.DescDiv{
+  flex: 3;
+}
+
+.pGDTitle{
+    font-size: 24px;
+    word-spacing: 3px;
+    font-weight: bolder;
+}
+
+.paragraph{
+ font-size: 15px;
+ margin-top: 20px;
+ width: 700px;
+ text-align: justify;
+ line-height: 20px;
+
+}
+
+
+
+.DetailsHotels{
+    flex: 1;
+    background-color: rgb(231, 242, 248);
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.allDetails{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.allDetails>h3{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.allDetails>button{
+     height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.slider{
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(0, 0, 0, 0.077);
+    z-index: 999;
+    display: flex;align-items: center;
+}
+
+.SliderWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    
+}
+
+.sliderImg{
+    width: 80%;
+    height: 80vh;
+}
+
+.close{
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    font-size: 25px;
+    color:rgb(157, 150, 150);
+}
+
+.arrow{
+    font-size: 30px;
+    margin: 40px;
+    color:  rgba(0, 0, 0, 0.681);
+}

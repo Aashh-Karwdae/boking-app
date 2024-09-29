@@ -1,0 +1,22 @@
+.homeContainer{
+    margin-top: 40px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+.propTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1024px;
+    font-size: 20px;
+}
+
+.fpropTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 1024px;
+    font-size: 20px;
+    margin-top: -10px;
+}

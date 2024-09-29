@@ -1,0 +1,37 @@
+.navbar{
+    height: 50px;
+    background-color: rgb(97, 97, 243);
+    display: flex;
+    justify-content: center;
+}
+
+.NavbarContainer{
+    width:100%;
+    max-width: 1024px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Navheading{
+    font-weight: 300;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navButton{
+    margin-left: 20px;
+    font-size: 13px;
+    border: none;
+    padding: 7px 20px;
+    cursor: pointer;
+    color: blue;
+    align-items: center;
+    border-radius: 3px;
+
+    
+}

@@ -1,0 +1,64 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    margin-top: -15px;
+}
+
+.fpContainer{
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    line-height: 20px;
+
+}
+
+.fpImgs{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.fpName{
+    font-weight: 800;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fpCity{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+}
+
+.fpdiscount{
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.fpRatings{
+    margin-top: 7px;
+    display: flex;
+    gap: 3px;
+}
+
+.fpBtn{
+    background-color: rgb(4, 4, 110);
+    border: none;
+    color: white;
+    font-weight: 200;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+.fpReview{
+    color: rgb(84, 81, 81);
+    font-size:15px;
+}
